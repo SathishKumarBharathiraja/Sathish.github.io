@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sathish Kumar Bharathiraja | Business Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #5e60ce;
+      --secondary-color: #f0f4ff;
+      --card-bg: #ffffff;
+      --text-color: #222;
+      --header-bg: #240046;
+      --footer-bg: #3c096c;
+      --link-color: #4361ee;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--header-bg), var(--primary-color));
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      border-bottom: 3px solid var(--primary-color);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .projects, .presentations, .reports {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: var(--primary-color);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: var(--footer-bg);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    img.profile-pic {
+      width: 180px;
+      border-radius: 100px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .about-me {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sathish Kumar Bharathiraja</h1>
+    <p>Business Analyst | Power BI Expert | MBA in Business Analytics</p>
+  </header>
+
+  <section class="about-me">
+    <img src="assets/profile.jpeg" alt="Profile Photo" class="profile-pic" />
+    <div>
+      <h2>About Me</h2>
+      <p>
+        Analytical and adaptable Business Analyst with 6+ years of experience driving operational excellence through data-driven insights, process improvement, and cross-functional collaboration. Proficient in Power BI, SQL, and Excel, with a passion for data storytelling and strategic business solutions. MBA in Business Analytics (Higher Honors).
+      </p>
+    </div>
+  </section>
+</body>
+</html>
